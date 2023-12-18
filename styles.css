@@ -1,0 +1,883 @@
+button{
+    cursor: pointer;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.navbar-box1{
+    width: 85%;
+}
+
+.navbar-box{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.navbar-box2{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-img{
+    width: 15px;
+    height: 15px;
+}
+.menu-box{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+/* Intro */
+
+.intro{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.intro-text{
+    width: 22%;
+    margin-left: 10%;
+    
+    margin-bottom: 10%;
+}
+
+.intro-header-text{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.intro-normal-text{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.download-btn{
+    width:150px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+.download-btn-img{
+    background-color: blue;
+    height: 17px;
+}
+
+.iphone{
+    height: 85%;
+    width: 80%;
+}
+
+.health-card1{
+    height: 150px;
+    width: 100px;
+    margin-bottom: 60%;
+    
+}
+
+/* Second section */
+
+.mission-wrapper{
+    background: #F2F5F9;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.mission-colorbox{
+    background: #242E49;
+    width: 95%;
+    min-height: 90vh;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+#mission-boxmargins{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.mission-elem{
+    border-radius: 16px;
+    height: 128px;
+}
+#mission-elem1{
+    background: #8A3FFC;
+    width: 29%;
+    margin-right: 1%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+}
+#shieldbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A56EFF;
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    margin: 5% 6%;
+    color: white;
+    
+}
+#mission-elem2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    background: #3D4966;
+    width: 70%;
+    font-size: 1.8rem;
+    color: white;
+}
+
+#mission-elem3{
+    margin-top: 1%;
+    background: #0F67FE;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 3%;
+    font-size: 1.8rem;
+}
+#mission-elem4{
+    margin-top: 1%;
+    display: flex;
+    background: #3D4966;
+    /* background-size: contain; */
+    /* background-repeat:no-repeat ; */
+    width: 70%;
+    margin-right: 1%;
+}
+#mission-textdivdes{
+    background: url('./assets/Group.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+#mission-elem5{
+    background: url('./assets/MLtextures.png');
+    background-size:cover ;
+    background-position: 10% 0%;
+    margin-top: 1%;
+    /* background: #0F67FE; */
+    color: #FFF;
+    width: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mission-textdiv{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 4%;
+}
+#mission-textdivl{
+    width: 45%;
+    font-size: 1.8rem;
+}
+#mission-textdivr{
+    width: 45%;
+    font-size: 1.5rem;
+}
+#learnmorebtn{
+    display: flex;
+    align-items: center;
+    background: #ffffff00;
+    border: #FFF solid 1px;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    padding: 2.5% 5%;
+    margin-top: 5%;
+}
+#learnmorebtntxt{
+    margin-right: 20px;
+}
+
+/* Company logo */
+
+#tes-wrapper{
+    background: #F2F5F9;
+    /* align-items: center; */
+    justify-content: center;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+}
+#tes-colorbox{
+    background: #D0E4FF;
+    width: 95%;
+    height: 35vh;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 0 0;
+}
+#left-tesoverlay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+}
+#right-tesoverlay{
+    width: 50%;
+    height:100%;
+    background: url(./assets/Test.png);
+    background-repeat: no-repeat;
+    background-position: 100px;
+}
+
+
+/* Our Services */
+
+.services{
+    width: 100%;
+    height: 80%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(210, 228, 243);
+    justify-content: center;
+}
+
+.services-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.services-box{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-container{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.services-box-inner{
+    background-color: #fff;
+    width: 45%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 0px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.services-img{
+    height: 15px;
+    width: 15px;
+}
+
+.services-img-box{
+    background-color: #dad2d2;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-box-inner-full{
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+.services-box-inner-left{
+    width: 70%;
+    background: #fff;
+}
+
+.services-box-inner-right{
+    width: 30%;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.services-bottom{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-bottom-right{
+    width: 200px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.services-bottom-right-img{
+    padding-left: 5px;
+}
+
+/* Feature */
+.feature{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feature-box{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature1{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.feature1-inner{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;   
+}
+
+.feature-left{
+    width: 50%;
+    height: 70%;
+}
+.feature-right{
+    width: 50%;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.feature-right1{
+    width: 50%;
+    height: 70%;
+    padding-right: 20%;
+}
+
+.feature-left1{
+    width: 50%;
+    height: 70%;
+}
+
+
+.iphone2{
+    width: 100%;
+    height: 100%;
+}
+
+.feature-btn{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+    margin-top: 5%;
+    border: none;
+}
+
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 55%;
+}
+
+
+/* benifit */
+.benifit{
+    width: 92%;
+    height: auto;
+    color: #fff;
+    background-color: #242E49;
+    padding: 4%;
+   }
+
+
+
+.benifit-inner{
+    width: 100%;
+}
+
+.benifit-heading-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benifit-6{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(4, 4, 59);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.benifit-box-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.benifit-box{
+    width: 27%;
+    padding: 2%;
+    border: none;
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #3D4966;
+}
+
+.benifit-box-bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* download section */
+
+/* Downlaod section */
+
+.download-section{ 
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color: blue;
+    margin-top: 4%;
+    display: flex;
+    padding-top: 3%;
+}
+
+.download-left{
+    width: fit-content;
+    height: fit-content;
+}
+
+.iphone4{
+    width: 100%;
+    height: 80%;
+}
+
+.download-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-right: 1%;
+    color: #fff;
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+.download-btn-down{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+.download1{
+    width: 45%;
+    height: 30px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+#foot-wrapper{
+    background: #F2F5F9;
+    /* align-items: center; */
+    justify-content: center;
+    min-height: 110vh;
+    width: 100%;
+    display: flex;
+}
+#foot-innerwrapper{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #242E49;
+    margin:2% auto;
+    width: 98%;
+    border-radius: 24px;
+}
+#foot-overlay{
+    width: 100%;
+    height: 100%;
+    background: url(./assets/Logo\ Mark1.png);
+    background-position: 250px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-ernav{
+    display: flex;
+}
+#foot-erpara{
+    color: white;
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.foot-ernav a{
+    width: 100%;
+    color: #BEC5D2;
+    font-size: 1.6rem;
+    /* margin: 0% 1%; */
+    margin-right: 8%;
+    text-align: center;
+}
+.foot-ersocials{
+    display: flex;
+    margin: 8% 0;
+}
+.foot-ersocials a{
+    margin: 5%;
+}
+#newnavbox1{
+    background: #0f67fe;
+    margin-bottom: 2%;
+    /* margin-top: 1%; */
+}
+
+
+
+@media (max-width:477px){
+
+    .navbar {
+        height: 74px;
+    }
+
+    .navbar-box1 {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    .navbar-box{
+        display: none;
+    }
+
+    .navbar-box2 {
+        width: 45%;}
+
+    .menu-box{
+        width: 95%;
+        margin-right: -46px;
+        padding-right: 18px;
+        
+    }
+
+    .menu-box h3{
+        color: white;
+        font-size: 14px;
+        margin: auto;
+    }
+    .navbar-img {
+        width: 21px;
+        height: 20px;
+        margin-right: 2px;
+    }
+    
+    
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-text {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .intro-normal-text {
+        font-size: 20px;
+        font-weight: 600;
+        color: #494a47;
+    }
+   
+    .download-btn {
+        width: 100%;
+        height: 50px;
+        justify-content: center ;
+        font-size: 20px;
+
+    }
+
+    .download-btn-img {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+
+    .intro-img{
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .services-btn {
+        width: 140px;
+        height: 47px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #828DA2;
+        border-color: #828DA2;
+        background-color: #F2F5F9;
+    }
+
+    .services-box{
+        width: 100%;
+    }
+
+    .services{
+        background-color: #F2F5F9;
+    }
+
+    .services-container {
+        flex-direction: column;
+        width: 95%;
+        /* margin-bottom: 15px; */
+    }
+
+    .services-box-inner {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services-img {
+        height: 32px;
+        width: 35px;
+    }
+
+    .services-bottom-left{
+        font-size: 15px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .services-bottom {
+        flex-direction: column;
+    }
+
+    .services-bottom-right {
+        width: 356px;
+        height: 54px;
+        margin-top: 10px;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .services-bottom-left a{
+        color: #0F67FE;
+        text-decoration: none;
+    }
+
+
+    .feature1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box{
+        width: 100%;
+    }
+
+    .feature-left {
+        width: 90%;
+    }
+    .feature-right {
+        width: 100%;
+        margin-left: 20%;
+        
+    }
+    
+    .feature-button{
+        height: 25px;
+        width: 100px;
+        margin-top: 20px;
+        border: solid 1px #828DA2;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    .feature-btn {
+        width: 90%;
+        height: 56px;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .benifit-box-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benifit {
+        width: 100%;
+        border: 0px solid;
+        border-radius: 32px 
+    
+    }
+    .benifit-heading-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .benifit-6{
+        background-color: transparent;
+        width: 123px;
+        height: 49px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .benifit-box {
+        width: 95%;
+        height: 250px;
+    }
+
+    .benifit-box p{
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .benifit-box h3{
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .benifit-box-bottom img{
+        margin-bottom: 17px;
+        padding-right: 40px;
+    }
+
+    .benefit-image{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .learn-more-image img{
+        margin-bottom: 17px;
+        padding-right: 40px;
+    }
+
+
+
+    .ftre {
+       
+        flex-direction: column-reverse;
+        width: 100%;
+     
+    }
+
+    .feature-right1 {
+        order: 1;
+    }
+
+    .feature-left1 {
+        order: 2;
+    }
+    .feature-left1 {
+            width: 90%;
+        }
+
+    .feature-right1 {
+        width: 95%;
+        height: 70%;
+        padding-right: 0%;
+        margin-left: 10%;
+    }
+
+}
